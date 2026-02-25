@@ -57,8 +57,9 @@ export default function Home() {
       // Create a new mint keypair (the program expects a mint account signer)
       const mintKeypair = Keypair.generate();
 
-      // Rent-exempt lamports for a mint account (standard SPL mint size ~82 bytes)
-      const MINT_SIZE = 82;
+      // Token-2022 with NonTransferable + MetadataPointer extensions requires more space
+      // Base mint: 82 bytes + NonTransferable extension: 4 bytes + MetadataPointer: 10 bytes + Metadata: ~200 bytes
+      const MINT_SIZE = 350;
       const lamports = await connection.getMinimumBalanceForRentExemption(MINT_SIZE);
 
       // Associated token account for destination (user)
