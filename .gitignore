@@ -1,0 +1,74 @@
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+.eslintcache
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Rust / Anchor
+target/
+Cargo.lock
+*.pdb
+*.rlib
+.cargo/
+
+# Anchor specific
+*.so
+*.dylib
+.anchor/
+.idl/
+anchor-0.*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local development
+.env.local
+.env.*.local
+*.log
+
+# Solana
+.config/solana/
+.solana/
+
+# Wallet keys (IMPORTANT: Never commit private keys!)
+*-keypair.json
+*-keypair.pem
+.phantom/
+.solflare/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tmp
+*.temp
+.cache/
