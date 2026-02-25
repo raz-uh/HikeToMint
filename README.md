@@ -1,6 +1,7 @@
 # HikeToMint - Nepal's On-Chain Trekking Passport
 
-**Program ID:** `Hhf9G9gUrQRjJ1ZPhgrZzj3eAw8mofXtNg21WjtB2Pym` (Deployed on Devnet)
+**Program ID:** `Hhf9G9gUrQRjJ1ZPhgrZzj3eAw8mofXtNg21WjtB2Pym` (Deployed on Devnet)  
+**GitHub:** [github.com/raz-uh/HikeToMint](https://github.com/raz-uh/HikeToMint)
 
 HikeToMint is a mobile-responsive web dApp that allows adventure seekers in Nepal to mint exclusive Soulbound NFTs (Non-Transferable) when they physically reach specific trekking landmarks.
 
@@ -107,8 +108,10 @@ The `useGeolocation` hook calculates the distance between the user's current coo
 
 ## Demo Video & Live Experience
 
-📹 **Demo Video:** Coming soon - 3 minute demo video showing live experience
-🌐 **Live Deployment:** Coming soon - Vercel/Netlify deployment URL
+📹 **Demo Video:** [Add your Loom/YouTube link here]  
+🌐 **Live Deployment:** [Add your Vercel/Netlify URL here]
+
+> ⏱️ **Demo should be max 3 minutes** covering: Problem overview → Live demo → Impact
 
 ---
 
