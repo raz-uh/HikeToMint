@@ -1,7 +1,6 @@
 # HikeToMint - Nepal's On-Chain Trekking Passport
 
-**Program ID:** `Hhf9G9gUrQRjJ1ZPhgrZzj3eAw8mofXtNg21WjtB2Pym` (Deployed on Devnet)  
-**GitHub:** [github.com/raz-uh/HikeToMint](https://github.com/raz-uh/HikeToMint)
+**Program ID:** `Hhf9G9gUrQRjJ1ZPhgrZzj3eAw8mofXtNg21WjtB2Pym` (Deployed on Devnet)
 
 HikeToMint is a mobile-responsive web dApp that allows adventure seekers in Nepal to mint exclusive Soulbound NFTs (Non-Transferable) when they physically reach specific trekking landmarks.
 
@@ -108,10 +107,8 @@ The `useGeolocation` hook calculates the distance between the user's current coo
 
 ## Demo Video & Live Experience
 
-📹 **Demo Video:** [Add your Loom/YouTube link here]  
-🌐 **Live Deployment:** [Add your Vercel/Netlify URL here]
-
-> ⏱️ **Demo should be max 3 minutes** covering: Problem overview → Live demo → Impact
+📹 **Demo Video:** https://www.loom.com/share/d41fca27ab364b95aa43629e2b8b9bf4
+🌐 **Live Deployment:** https://hiketomint.netlify.app/
 
 ---
 
@@ -163,43 +160,6 @@ Built with ❤️ by the Superteam Nepal community.
 - Explore Token Extensions and Solana Mobile features
 
 ---
-
-## Deployment Instructions
-
-### Option 1: Deploy Frontend to Vercel (Recommended)
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# From frontend directory
-cd frontend
-vercel
-
-# Follow prompts and grab your live URL
-# Add URL to README and bounty submission
-```
-
-### Option 2: Deploy to Netlify
-```bash
-# Install Netlify CLI
-npm install -g netlify-cli
-
-# From frontend directory
-cd frontend
-netlify deploy
-
-# Add deployment URL to README
-```
-
-### Option 3: Deploy Smart Contract to Mainnet (Optional)
-⚠️ **For production only:**
-```bash
-cd anchor
-anchor deploy --provider.cluster mainnet-beta
-```
-
----
-
 ## Resources & Inspiration
 
 This project explores:
